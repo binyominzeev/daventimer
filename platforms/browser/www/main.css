@@ -1,0 +1,45 @@
+html, body {
+}
+
+body {
+margin:0 auto;
+}
+
+#daven-bar {
+width: 100%;
+height: 58px;
+}
+
+#daven-list {
+height: 400px;
+overflow-y: auto;
+}
+
+.imalink {
+height: 47px;
+width: 171px;
+border: black 1px solid;
+direction: rtl;
+font-size: 17pt;
+font-weight: bold;
+padding: 5px;
+margin-top: 16px;
+float: left;
+margin-right: 15px;
+}
+
+#daven-title {
+text-align: center;
+margin-top: 29px;
+font-size: 52pt;
+font-weight: bold;
+font-family: 'mysbl';
+}
+@font-face {
+  font-family: 'mysbl';
+  src: url("webfonts/SBLHbrw.eot?#iefix") format("embedded-opentype"),
+	url("webfonts/SBLHbrw.woff2") format("woff2"),
+	url("webfonts/SBLHbrw.woff") format("woff"),
+	url("webfonts/SBLHbrw.ttf") format("truetype"),
+	url("webfonts/SBLHbrw.svg#sbl") format("svg");
+}
